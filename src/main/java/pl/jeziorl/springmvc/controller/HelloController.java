@@ -18,7 +18,6 @@ public class HelloController {
     @ResponseBody
     public String index() {
         return helloService.hello();
-        //sprawdzić jak ustawić domyślną bazę danych w postgresie.
     }
 
 }
