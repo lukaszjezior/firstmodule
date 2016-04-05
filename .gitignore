@@ -3,7 +3,7 @@
 # Directories #
 .mtj.tmp/
 .idea/
-.target/
+*/target/**
 
 # Files #
 *.jar
