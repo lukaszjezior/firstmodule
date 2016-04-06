@@ -10,5 +10,13 @@
             </column>
             <column name="hello" type="varchar(200)"/>
         </createTable>
+        <createTable tableName="products">
+            <column name="id" type="integer" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(200)"/>
+            <column name="price" type="decimal"/>
+            <column name="description" type="text"/>
+        </createTable>
     </changeSet>
 </databaseChangeLog>
