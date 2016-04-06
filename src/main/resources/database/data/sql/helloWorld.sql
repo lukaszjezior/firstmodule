@@ -1,0 +1,1 @@
+INSERT INTO hellotable VALUES (1, 'Hello From Database added with Liquibase!');
